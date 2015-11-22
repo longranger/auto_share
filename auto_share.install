@@ -2,8 +2,8 @@ post_install() {
 	echo "
 #########################################
 # Be sure to enable and start the timer:
-# sudo systemctl enable auto_share.timer
-# sudo systemctl start auto_share.timer
+sudo systemctl enable auto_share.timer
+sudo systemctl start auto_share.timer
 #########################################
 "
 }
