@@ -4,4 +4,4 @@ Description=Check the network mounts
 
 [Service]
 Type=simple
-ExecStart=/usr/local/bin/auto_share
+ExecStart=/usr/bin/auto_share
