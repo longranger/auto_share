@@ -19,7 +19,6 @@ pkgver() {
 }
 package() {
 	cd "${srcdir}/${pkgname}-${pkgver}"
-	install -Dm755 byscrub.py "${pkgdir}"/usr/bin/byscrub
 	install -Dm755 auto_share "${pkgdir}"/usr/bin/auto_share
 	install -Dm755 auto_share.timer "${pkgdir}"/etc/systemd/system/auto_share.timer
 	install -Dm755 auto_share.service "${pkgdir}"/etc/systemd/system/auto_share.service
