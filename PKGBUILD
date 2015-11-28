@@ -1,10 +1,10 @@
 # Maintainer: longranger <longranger dot 406 at gmail dot com>
 pkgname="auto_share"
-pkgver="0.1.0"
+pkgver="0.1.3"
 pkgrel=1
-url="https://github.com/longranger/auto_share"
 pkgdesc="auto mount nfs shares per archwiki"
 arch=('x86_64')
+url="https://github.com/longranger/auto_share"
 license=('GPL')
 depends=()
 makedepends=('git')

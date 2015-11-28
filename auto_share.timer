@@ -2,7 +2,9 @@
 Description=Check the network mounts
 
 [Timer]
-OnCalendar=*-*-* *:*:00
+#OnCalendar=*-*-* *:*:00
+OnBootSec=5sec
+OnUnitActiveSec=1min
 
 [Install]
 WantedBy=timer.target
